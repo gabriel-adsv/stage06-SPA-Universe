@@ -17,7 +17,7 @@ body {
   background-image: url(./assets/mountains-universe-1.png);
   background-position: top center;
   background-size: 100% 100%;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 .container {
