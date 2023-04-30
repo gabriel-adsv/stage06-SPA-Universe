@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-repeat: no-repeat;
 }
 
 :root {
@@ -17,7 +18,6 @@ body {
   background-image: url(./assets/mountains-universe-1.png);
   background-position: top center;
   background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 .container {
