@@ -12,11 +12,11 @@ export class Router {
     window.history.pushState({}, "", event.target.href)
 
     if(window.location.pathname == "/explorer") {
-      document.body.style.backgroundImage = "url(../assets/mountains-universe-3.png)"
+      document.body.style.backgroundImage = "/url(../assets/mountains-universe-3.png)"
     } else if(window.location.pathname == "/universe") {
-      document.body.style.backgroundImage = "url(../assets/mountains-universe-2.png)"
+      document.body.style.backgroundImage = "/url(../assets/mountains-universe-2.png)"
     } else {
-      document.body.style.backgroundImage = "url(../assets/mountains-universe-1.png)"
+      document.body.style.backgroundImage = "/url(../assets/mountains-universe-1.png)"
     }
 
     this.handle()
